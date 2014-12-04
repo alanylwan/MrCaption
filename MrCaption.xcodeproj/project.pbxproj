@@ -161,6 +161,7 @@
 				TargetAttributes = {
 					C52F4F661A2DE3FD003C750D = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 864XSL2U7M;
 					};
 					C52F4F7B1A2DE3FD003C750D = {
 						CreatedOnToolsVersion = 6.1;
@@ -338,9 +339,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yl WAN (28U4X24HEM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yl WAN (28U4X24HEM)";
 				INFOPLIST_FILE = MrCaption/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c77c6e75-c559-47fd-8aeb-f58c63f7f630";
 			};
 			name = Debug;
 		};
@@ -348,9 +354,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yl WAN (28U4X24HEM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yl WAN (28U4X24HEM)";
 				INFOPLIST_FILE = MrCaption/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c77c6e75-c559-47fd-8aeb-f58c63f7f630";
 			};
 			name = Release;
 		};
@@ -407,6 +418,7 @@
 				C52F4F881A2DE3FD003C750D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C52F4F891A2DE3FD003C750D /* Build configuration list for PBXNativeTarget "MrCaptionTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +427,7 @@
 				C52F4F8B1A2DE3FD003C750D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
